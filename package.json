@@ -1,6 +1,6 @@
 {
   "name": "@stellar-expert/lib-webpack-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webpack+Babel building system for StellarExpert utility libraries",
   "main": "index.js",
   "author": "team@stellar.expert",

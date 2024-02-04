@@ -146,9 +146,9 @@ class WebpackConfigBuilder {
      * @private
      */
     prepareOutput() {
-        const {outputPath, globalObject = 'globalThis', entry, library} = this.params
+        const {libName, outputPath, globalObject = 'globalThis', entry, library} = this.params
         const libProps = Object.assign({
-            name: entry[0],
+            name: libName,
             type: 'umd2',
             export: 'default'
         }, library)
