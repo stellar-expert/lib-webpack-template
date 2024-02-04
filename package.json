@@ -4,7 +4,10 @@
   "description": "Webpack+Babel building system for StellarExpert utility libraries",
   "main": "index.js",
   "author": "team@stellar.expert",
-  "repository": "https://github.com/stellar-expert/lib-webpack-template.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stellar-expert/lib-webpack-template.git"
+  },
   "homepage": "https://github.com/stellar-expert/lib-webpack-template",
   "license": "MIT",
   "dependencies": {
